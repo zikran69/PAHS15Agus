@@ -1,0 +1,621 @@
+
+.body {
+    background: #F2F7FC;
+}
+
+h1 {
+    margin-left: 20px;
+}
+
+.childall {
+    width: 1440px;
+    height: 1024px;
+    margin-top: 20px;
+    margin-left: 30px;
+    }
+
+/* layout */
+
+
+.leftcolumn {
+    float: left;
+    width: 30%;
+}
+
+.rightcolumn {
+    display: grid;
+    row-gap: 50px;
+    width: 70%;
+}
+/* profil card */
+.grid-container1 {
+    height: 100px;
+    width: 400px;
+    top: 8px;
+    margin-bottom: -30px;
+    align-items: start;
+    text-align: left;
+    justify-content: first baseline;
+}
+
+.span-a{
+    display: inline-block;
+    color: #EC1B09;
+    font-family: Pacifico;
+    text-align: left;
+}
+    
+.span-b{
+    display: inline-block;
+    color: #FF9C1A;
+    font-family: Pacifico;
+    text-align: left;
+}
+
+.profil-card {
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 800px;
+    border-radius:20px;
+    margin-top: -5px;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+    margin-top: 52px;
+    margin-left: 92px;
+    margin-right: 108px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+
+.grid-nama-profil {
+    grid-template-columns: auto auto;
+    gap: 50px;
+    padding: 2px 100px 0 100px;
+}
+
+.grid-nama-profil > h3 {
+text-decoration-color: #0B0909;
+font-family: Raleway;
+font-size: 20px;
+font-weight: 20px;
+line-height: 5px;
+letter-spacing: 0em;
+padding: 10px;
+font:bold;
+margin: 5px;
+align-items: center;
+text-align: center;
+}
+
+.grid-nama-profil > h4 {
+text-decoration-color: rgb(128, 146, 163);
+font-family: Raleway;
+font-size: 16px;
+font-weight: 20px;
+line-height: 5px;
+letter-spacing: 0em;
+padding: 10px;
+margin: 5px;
+align-items: center;
+}
+
+        /* sosmed icon */
+.grid-container2 {
+display: grid-columns;
+gap: 5px;
+height: 100px;
+width: 400px;
+top: 18px;
+padding: 2px;
+margin: 2px 0 2px 0;
+align-items: center;
+text-align: center;
+}
+
+.grid-item2 {
+display: inline-block;
+gap: 20px;
+justify-content: center;
+text-align: center;
+width: 50px;
+height: 40px;
+padding: 5px 0 5px 0;
+margin: 5px;
+border-radius: 5px;
+box-shadow: 0 4px 8px 0 rgba(48, 42, 42, 0.295), 0 6px 20px 0 rgba(56, 51, 51, 0.19);
+}
+
+.grid-item2:hover {
+    background: #FF9C1A;
+    text-decoration-color:white ;
+} 
+
+.contact-card {
+width: 350px;
+height: 350px;
+margin-bottom: 5px;
+padding-bottom: 5px ;
+margin-left: 20px;
+border-radius: 20px;
+background-color: #F2F5F9;
+}
+
+.grid-contactcard {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    padding: 30px 0 5px 10px;
+}
+
+.grid-contactcard > span {
+    display: grid;
+    grid-template-rows: 20px 20px;
+    row-gap: -2px;
+    align-items: center;
+    margin: 0 20px 0 -35px;
+}
+
+.grid-contactcard > span > h4 {
+    font-family: Raleway;
+    justify-content: left;
+    text-align: left;
+    font-weight: 600;
+    text-size-adjust: 14px;
+    color:  rgba(26, 16, 3, 0.5);
+    margin-right: 160px;
+}
+
+.grid-contactcard > span > h3 {
+    font-family: Ralway;
+    justify-content: left;
+    text-align: left;
+    font-weight: 600;
+    text-size-adjust: 14px;
+    font :bold;
+    text-decoration-color: black;
+}
+
+.container-btn {
+    padding: 2px;
+    margin: 2px;
+}
+
+.container-btn .btn {
+    display: grid;
+    grid-template-columns: 50px 50px;
+    justify-content: center;
+    background-color: #FF9C1A;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    width: 220px;
+    margin: 10px 0 5px 70px;
+}
+
+
+.container-btn .btn > a {
+    display: inline-block;
+    justify-items: start;
+    text-align: left;
+    width: 30px;
+    margin: flex;
+    padding: flex;
+}
+
+.container-btn .btn > h5 {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    width: 2px;
+    margin: 2px 0 0 0;
+}
+
+/* nav card */
+
+.container-navcard {
+    width: 500px;
+    height: 100px;
+    border-radius: 20px; 
+    padding-left: 200px;   
+}
+
+.container-buttonnav {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5px;
+    width: 400px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    box-shadow: 0px 0px 20px -4px rgba(0,0,0,1);
+-webkit-box-shadow: 0px 0px 20px -4px rgba(0,0,0,1);
+-moz-box-shadow: 0px 0px 20px -4px rgba(0,0,0,1);
+border-radius: 20px;
+}
+.buttonnav {
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    justify-content: center;
+    background-color: #E1E8EF;
+    text-align: center;
+}
+
+.buttonnav > a {
+    text-decoration: none;
+    color: #0B0909;
+    padding-left: 2px;
+    
+}
+.buttonnav > a > svg {
+    width: 30px;
+    margin-top: 10px;
+}
+
+.buttonnav:hover {
+    background-color: #FF9C1A;
+    color: white;
+}
+
+.welcomeword {
+    padding: 10px;
+    margin: 5px;
+    text-align: left;
+}
+
+/* about me style */
+
+.aboutmecard {
+    font-family: Raleway;
+    width: 820px;
+    height: 700px;
+    margin-top: -50px;
+    padding-left: 30px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.row-aboutme {
+    display: grid;
+    grid-template-areas: 
+    'about garis';
+}
+
+.row-abaoutme1{
+    grid-area: about;
+    text-align: center;
+}
+
+.row-abaoutme2{
+    grid-area: garis;
+    text-align: center;
+}
+
+.Line1 {
+    background-color: #FF9c1A;
+    height: 5px;
+    width: 400px;
+    color: white;
+    margin-top: 40px;
+}
+
+
+.JobContainer {
+    display: grid;
+    grid-template-areas: 
+    'jobcard1 jobcard2 '
+    'jobcard3 jobcard4';
+    gap: 20px;
+    padding: 20px;
+}
+
+.JobCard1 {
+    grid-area: jobcard1;
+    display: table-column;
+    width: 333px;
+    border-radius: 20px;
+    background-color: #FFEBD1;
+    font-weight: 400;
+}
+
+.JobCard1 > span {
+    display: grid;
+    grid-template-areas: 
+    'icon judul';
+    height: 40px;
+}
+
+.JobCard1 > span > svg {
+    width: 50px;
+    grid-area: icon;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+.JobCard1 > span > h2 {
+    grid-area: judul;
+    height: 10px;
+    margin-bottom: 1px;
+    text-align: left;
+}
+
+.JobCard2 {
+    grid-area: jobcard2;
+    display: table-column;
+    width: 333px;
+    border-radius: 20px;
+    background-color: #F2F7FC;
+    font-weight: 400;
+}
+
+.JobCard2 > span {
+    display: grid;
+    grid-template-areas: 
+    'icon judul';
+    height: 40px;
+}
+
+.JobCard2 > span > svg {
+    width: 50px;
+    grid-area: icon;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.JobCard2 > span > h2 {
+    grid-area: judul;
+    height: 10px;
+    margin-bottom: 1px;
+    text-align: left;
+}
+
+.JobCard3 {
+    grid-area: jobcard3;
+    display: table-column;
+    width: 333px;
+    border-radius: 20px;
+    background-color: #F2F7FC;
+    font-weight: 400;
+}
+
+.JobCard3 > span {
+    display: grid;
+    grid-template-areas: 
+    'icon judul';
+    height: 40px;
+}
+
+.JobCard3 > span  > svg {
+    width: 50px;
+    grid-area: icon;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.JobCard3 > span > h2 {
+    grid-area: judul;
+    height: 10px;
+    margin-bottom: 1px;
+    text-align: left;
+}
+
+.JobCard4 {
+    grid-area: jobcard4;
+    display: table-column;
+    width: 333px;
+    border-radius: 20px;
+    background-color: #FFEBD1;
+    font-weight: 400;
+    padding: 2px;
+}
+
+.JobCard4 > span {
+    display: grid;
+    grid-template-areas: 
+    'icon judul';
+    height: 40px;
+}
+
+.JobCard4 > span > svg {
+    width: 50px;
+    grid-area: icon;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.JobCard4 > span > h2 {
+    grid-area: judul;
+    height: 10px;
+    margin-bottom: 1px;
+    text-align: left;
+}
+
+/* about resume */
+
+.container-edex {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    padding-left: 80px;
+}
+
+.edex1 {
+    display: grid;
+    grid-template-columns: 60px 100px;
+}
+.edex1 > svg {
+    width: 50px;
+}
+.edex2 {
+    display: grid;
+    grid-template-columns: 60px 100px;
+    margin-left: 50px;
+}
+.edex2 > svg {
+    width: 50px;
+}
+
+.edexcard-container {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.edexcard1 {
+    display: grid;
+    grid-template-rows:150px 150px;
+}
+.edexcard1 > ul {
+    background-color: #FFE3BF;
+    border-radius: 20px;
+    height: 100px;
+    padding-top: 20px;
+}
+
+.edexcard2 {
+    display: grid;
+    grid-template-rows:150px 150px;
+    
+}
+.edexcard2 > ul {
+    background-color: #FFE3BF;
+    border-radius: 20px;
+    height: 100px;
+    padding-top: 20px;
+}
+
+/* skill */
+.skillcontainer {
+    background-color: #F8FBFB;
+    width: 850px;
+    height: 250px;
+    margin-left: -30px;
+    border-radius: 10px;
+    
+}
+
+.skillname {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    gap: 25px;
+    margin-left: 110px;
+}
+
+.skillcard {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    padding: auto;
+    gap: 10px;
+    margin-left: 100px;
+}
+
+.workskill {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: left;
+    align-items: left;
+    text-align: center;
+}
+
+.softskill {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5px;
+    margin: 10px;
+    justify-content: left;
+    align-items: left;
+    text-align: center;
+}
+
+.wsi {
+    display: flex;
+    font-size: 12px;
+    background-color: #E1E8EF;
+    border-radius: 10px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+/* contact */
+.contact-banner {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    gap: 30px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+.contactbox1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #FFEED9;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.contactbox1 > svg {
+    width: 30px;
+}
+
+.contactbox2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2px;
+    background-color: #F2F7FC;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.contactbox2 > svg {
+    width: 30px;
+}
+
+.contactform {
+    display: grid;
+    grid-row: auto;
+    gap: 5px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #F8FBFB;
+    border-radius: 20px;
+    margin-right: 20px;
+    height: 300px;
+}
+
+.garis2 {
+    background-color: rgb(100, 100, 122);
+    margin-left: 30px;
+    width: 700px;
+    height: 1px;
+    color: white;
+    
+}
+
+.isiform {
+    padding: 2px;
+    margin: 2px;
+}
+
+.submit-btn {
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border-color: #FF9C1A;
+    padding: 5px;
+    margin-top: 10px;
+}
